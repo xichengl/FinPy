@@ -66,9 +66,9 @@ def compare_panel_results(result_lst, order=[], label=[], digits=3, flag_star=Tr
     
     ht_order['y'] = -2
     ht_order['Intercept'] = -1
-    ht_order['Within R2'] = 10000
-    ht_order['R2'] = 10001
-    ht_order['Observations'] = 10002
+    ht_order['Within R2'] = len(order) + 1
+    ht_order['R2'] = len(order) + 2
+    ht_order['Observations'] = len(order) + 3
     
     output = None
     
