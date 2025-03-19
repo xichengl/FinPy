@@ -1,2 +1,2 @@
-# pyFin
+# FinPy
 Python utilities for finance
